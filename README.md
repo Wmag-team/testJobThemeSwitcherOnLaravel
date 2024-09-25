@@ -32,6 +32,11 @@ php artisan config:cache
 php artisan config:clear
 php artisan view:cache
 php artisan view:clear
+touch storage/logs/laravel.log
+touch storage/logs/error.log
+touch storage/logs/debug.log
+sudo chmod -R 775 storage
+sudo chmod -R ugo+rw storage
 
 ```
 
@@ -65,6 +70,13 @@ php artisan config:cache
 php artisan config:clear
 php artisan view:cache
 php artisan view:clear
+touch storage/logs/laravel.log
+touch storage/logs/error.log
+touch storage/logs/debug.log
+sudo chmod -R 775 storage
+sudo chmod -R ugo+rw storage
+
+
 ```
 
 ### Why do you need it ?
